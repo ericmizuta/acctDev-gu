@@ -1,0 +1,18 @@
+.topMenuContainer {
+    background-color: #262626;
+    height: 125px;
+}
+
+.topMenuIcons svg {
+    color: #ffffff
+}
+
+.topMenuSearchBar button span {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 400px) {
+    .topMenuContainer {
+        height: 90px
+    }
+}

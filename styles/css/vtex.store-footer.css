@@ -1,0 +1,23 @@
+.container:last-child .listContainer .listItem img {
+    width: 120px;
+    position: relative;
+    top: -25px;
+}
+
+.listContainer {
+    width: 120px;
+}
+
+.container:last-child {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .container:last-child > div:first-child {
+        width: 100%;
+    }
+    .container:last-child .listContainer .listItem img {
+        top: 0px;
+    }
+}

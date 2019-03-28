@@ -1,0 +1,364 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#home",
+      "shelf#gifts",
+      "shelf#programs"
+    ]
+  },
+  "store.product": {
+    "blocks": [
+      "product-details#default",
+      "product-kit",
+      "shelf.relatedProducts"
+    ]
+  },
+  "store.search": {
+    "blocks": [
+      "search-result"
+    ]
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result"
+    ]
+  },
+  "store.search#department": {
+    "blocks": [
+      "search-result#department"
+    ]
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result"
+    ]
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result"
+    ]
+  },
+  "store.account": {
+    "blocks": [
+      "my-account"
+    ],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "store.login": {
+    "blocks": [
+      "login-content#default"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "login",
+      "minicart",
+      "logo",
+      "search-bar",
+      "menu-link",
+      "telemarketing",
+      "category-menu"
+    ]
+  },
+  "category-menu": {
+    "props": {
+      "showAllDepartments": false,
+      "menuDisposition": "center"
+    }
+  },
+  "logo": {
+    "props": {
+      "url": "//eicom.vteximg.com.br/arquivos/eicom-white.png"
+    }
+  },
+  "menu-link": {
+    "props": {
+      "numberOfItems": 6,
+      "item1": {
+        "title": "Atendimento",
+        "typeOfRoute": "internal",
+        "page": "store/home",
+        "position": "right"
+      },
+      "item2": {
+        "title": "Programa de Afiliados",
+        "typeOfRoute": "internal",
+        "position": "middle"
+      },
+      "item3": {
+        "title": "Anuncie",
+        "typeOfRoute": "internal",
+        "position": "middle"
+      },
+      "item4": {
+        "title": "Televendas 4003-2018",
+        "typeOfRoute": "internal",
+        "position": "left"
+      },
+      "item5": {
+        "title": "Sobre",
+        "typeOfRoute": "internal",
+        "position": "right"
+      }
+    }
+  },
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Ir para o checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10
+    }
+  },
+  "footer": {
+    "props": {
+      "showPaymentFormsInColor": true,
+      "showSocialNetworksInColor": true,
+      "socialNetworks": [
+        {
+          "__editorItemTitle": "Instagram",
+          "socialNetwork": "Instagram",
+          "url": "https://www.instagram.com/eicomorg/"
+        }
+      ],
+      "sectionLinks": [
+        {
+          "__editorItemTitle": "ABOUT EICOM",
+          "title": "ABOUT EICOM",
+          "links": [
+            {
+              "__editorItemTitle": "Who We Are",
+              "title": "Who We Are",
+              "url": "https://eicom.org/the-program/"
+            },
+            {
+              "__editorItemTitle": "The Program",
+              "title": "The Program",
+              "url": "https://eicom.org/the-experience/"
+            },
+            {
+              "__editorItemTitle": "The Experience",
+              "title": "The Experience",
+              "url": "https://eicom.org/about-us/"
+            }
+          ]
+        },
+        {
+          "__editorItemTitle": "QUESTIONS?",
+          "title": "QUESTIONS?",
+          "links": [
+            {
+              "__editorItemTitle": "Help",
+              "title": "Help",
+              "url": "https://eicom.org/contact-us/"
+            },
+            {
+              "__editorItemTitle": "contact@eicom.org",
+              "title": "contact@eicom.org",
+              "url": "mailto:contact@eicom.org"
+            }
+          ]
+        }
+      ],
+      "badges": [
+        {
+          "image": "https://acupula.com.br/wp-content/uploads/2018/12/acct-preto-1.png"
+        }
+      ],
+      "paymentForms": [
+        {
+          "__editorItemTitle": "PAY WITH",
+          "title": "PAY WITH",
+          "paymentTypes": [
+            "MasterCard",
+            "Visa"
+          ]
+        }
+      ],
+      "storeInformations": [
+        {
+          "__editorItemTitle": "Informação da Loja",
+          "storeInformation": "Copyright © 2018 eicom.org - All Rights Reserved."
+        }
+      ]
+    }
+  },
+  "carousel#home": {
+    "props": {
+      "autoplay": true,
+      "autoplaySpeed": 4,
+      "banners": [
+        {
+          "image": "https://eicom.vteximg.com.br/arquivos/slide-loja-2.jpg",
+          "mobileImage": "https://eicom.vteximg.com.br/arquivos/slide-loja-mobile-2.jpg"
+        }
+      ],
+      "height": 440,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+  "shelf#gifts": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": 2,
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Gifts and Accessories",
+        "summary": {
+          "isOneClickBuy": false,
+          "showBadge": true,
+          "badgeText": "OFF",
+          "buyButtonText": "Comprar",
+          "displayBuyButton": "displayButtonHover",
+          "showCollections": false,
+          "showListPrice": true,
+          "showLabels": false,
+          "showInstallments": true,
+          "showSavings": true,
+          "name": {
+            "showBrandName": false,
+            "showSku": false,
+            "showProductReference": false
+          }
+        }
+      }
+    }
+  },
+  "shelf#programs": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "category": 1,
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Programmes",
+        "summary": {
+          "isOneClickBuy": false,
+          "showBadge": true,
+          "badgeText": "OFF",
+          "buyButtonText": "Comprar",
+          "displayBuyButton": "displayButtonHover",
+          "showCollections": false,
+          "showListPrice": true,
+          "showLabels": false,
+          "showInstallments": true,
+          "showSavings": true,
+          "name": {
+            "showBrandName": false,
+            "showSku": false,
+            "showProductReference": false
+          }
+        }
+      }
+    }
+  },
+  "product-details#default": {
+    "blocks": [
+      "breadcrumb",
+      "product-name",
+      "product-images",
+      "product-price",
+      "product-description",
+      "product-specifications",
+      "buy-button",
+      "sku-selector",
+      "shipping-simulator",
+      "availability-subscriber",
+      "share"
+    ],
+    "props": {
+      "displayVertically": true,
+      "share": {
+        "social": {
+          "Facebook": true,
+          "WhatsApp": true,
+          "Twitter": false
+        }
+      },
+      "price": {
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": true,
+        "showSavings": true
+      },
+      "name": {
+        "showBrandName": false,
+        "showSku": false,
+        "showProductReference": false
+      }
+    }
+  },
+  "search-result#department": {
+    "blocks": [
+      "filter-navigator",
+      "gallery",
+      "not-found",
+      "breadcrumb",
+      "order-by",
+      "total-products"
+    ],
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 2,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "hiddenFacets": {
+        "layoutMode1": "normal",
+        "layoutMode2": "small",
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "__editorItemTitle": "editor.search-result.hiddenFacets.specificationFilters.hiddenFilter"
+            }
+          ]
+        }
+      },
+      "summary": {
+        "isOneClickBuy": false,
+        "showBadge": true,
+        "displayBuyButton": "displayButtonAlways",
+        "showCollections": false,
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": false,
+        "showSavings": false,
+        "name": {
+          "showBrandName": false,
+          "showSku": false,
+          "showProductReference": false
+        }
+      },
+      "pagination": "show-more"
+    }
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  }
+}

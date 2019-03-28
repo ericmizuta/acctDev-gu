@@ -1,0 +1,11 @@
+.container {
+    background-color: #262626;
+}
+
+.itemContainer > a {
+    color: #ffffff;
+}
+
+.sidebarContainer svg {
+    color: #ffffff
+}
