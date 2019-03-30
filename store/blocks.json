@@ -13,6 +13,12 @@
       "shelf.relatedProducts"
     ]
   },
+  "store.product.curse":{
+    "blocks":[
+      "testcomponent",
+      "product-details"
+    ]
+  },
   "store.search": {
     "blocks": [
       "search-result"

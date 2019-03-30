@@ -1,0 +1,5 @@
+{
+    "store.product.curse": {
+        "path": "/test/:slug/p"
+      }
+}

@@ -1,0 +1,12 @@
+{
+    "store.product.curse": {
+        "required": [
+            "testcomponent",
+            "product-details"
+        ]
+    },
+    "testcomponent":{
+        "component":"Curses"
+    }
+}
+

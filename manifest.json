@@ -5,6 +5,7 @@
   "description": "EICOM Store",
   "version": "2.0.2",
   "builders": {
+    "react": "3.x",
     "styles": "1.x",
     "store": "0.x"
   },
@@ -26,6 +27,7 @@
     "vtex.product-kit": "1.x",
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
-    "vtex.my-account": "1.x"
+    "vtex.my-account": "1.x",
+    "vtex.admin-pages": "3.0.0-beta.1"
   }
 }
